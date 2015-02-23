@@ -1,0 +1,28 @@
+{
+	"turret":[
+        {
+            "name": "turret_1",
+            "x": "360",
+            "y": "230",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_2",
+            "x": "577",
+            "y": "217",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_3",
+            "x": "474",
+            "y": "340",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "630",
+            "y": "420",
+            "type": "turretskin0"
+        }
+	]
+}

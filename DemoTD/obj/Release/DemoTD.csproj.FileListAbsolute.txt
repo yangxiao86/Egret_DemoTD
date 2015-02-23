@@ -1,0 +1,6 @@
+C:\Program\GameProjects\DemoTD\bin\DemoTD.dll.config
+C:\Program\GameProjects\DemoTD\bin\DemoTD.dll
+C:\Program\GameProjects\DemoTD\bin\DemoTD.pdb
+C:\Program\GameProjects\DemoTD\obj\Release\DemoTD.csprojResolveAssemblyReference.cache
+C:\Program\GameProjects\DemoTD\obj\Release\DemoTD.dll
+C:\Program\GameProjects\DemoTD\obj\Release\DemoTD.pdb

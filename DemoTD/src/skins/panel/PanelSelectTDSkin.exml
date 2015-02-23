@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:game="game.*" width="306" height="93">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:UIAsset source="tdlist" y="-1" x="70"/>
+	<e:Button id="a1" width="77" height="43" verticalAlign="top" textAlign="left" y="49" x="22" label="btn_1"/>
+	<e:Button id="a2" textAlign="left" width="77" verticalAlign="top" height="43" y="49" x="123" label="btn_2"/>
+	<e:Button id="a3" textAlign="left" width="77" verticalAlign="top" height="43" y="48" x="223" label="btn_3"/>
+</e:Skin>

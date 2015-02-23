@@ -1,0 +1,1 @@
+"C:\Users\yangxiao\AppData\Roaming\npm\egret.cmd" %*
