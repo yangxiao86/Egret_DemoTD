@@ -1,0 +1,6 @@
+C:\Program\GameProjects\Egret_DemoTD\TD\TD\bin\TD.dll.config
+C:\Program\GameProjects\Egret_DemoTD\TD\TD\bin\TD.dll
+C:\Program\GameProjects\Egret_DemoTD\TD\TD\bin\TD.pdb
+C:\Program\GameProjects\Egret_DemoTD\TD\TD\obj\Debug\TD.dll
+C:\Program\GameProjects\Egret_DemoTD\TD\TD\obj\Debug\TD.pdb
+C:\Program\GameProjects\Egret_DemoTD\TD\TD\obj\Debug\TD.csprojResolveAssemblyReference.cache
