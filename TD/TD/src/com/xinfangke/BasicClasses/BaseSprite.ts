@@ -23,6 +23,10 @@
         */
         public Hp: number = 100;
         /**
+        * 	精灵的血量
+        */
+        public HpMax: number = 100;
+        /**
         * 	攻击力
         */
         public Atk: number = 1;

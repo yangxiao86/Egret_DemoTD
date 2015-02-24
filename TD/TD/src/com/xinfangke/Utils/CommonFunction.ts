@@ -31,6 +31,13 @@
             return speed;
         }
 
+        public static numPrecentage(cint: number, mint: number, countCop: number): number {
+            var value: number = Math.floor(cint / mint * countCop);
+            if (value > countCop) {
+                value = countCop;
+            }
+            return value;
+        }
 
     }
 } 

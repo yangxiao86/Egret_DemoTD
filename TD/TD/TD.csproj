@@ -312,11 +312,8 @@
     <Content Include="libs\core\extension\resource\Resource.js" />
     <Content Include="libs\core\jslib\NumberUtils.js" />
     <Content Include="resource\assets\bullet1.png" />
-    <Content Include="resource\assets\green.png" />
     <Content Include="resource\assets\num.png" />
     <Content Include="resource\assets\panelbackground.jpg" />
-    <Content Include="resource\assets\panelbg.png" />
-    <Content Include="resource\assets\red.png" />
     <Content Include="resource\assets\scene1\scene1bg.jpg" />
     <Content Include="resource\assets\scene2\scene2bg.jpg" />
     <Content Include="resource\assets\simple\CheckBox\checkbox-select_disabled.png" />
@@ -383,7 +380,6 @@
     <Content Include="resource\assets\sprite\sprite1_left.png" />
     <Content Include="resource\assets\sprite\sprite1_right.png" />
     <Content Include="resource\assets\sprite\sprite1_up.png" />
-    <Content Include="resource\assets\tdlist.png" />
     <Content Include="resource\assets\td\turretskin0.png" />
     <Content Include="resource\assets\td\turretskin1.png" />
     <Content Include="resource\assets\td\turretskin2.png" />
@@ -406,9 +402,7 @@
     <Content Include="src\skins\simple\ButtonSkin.exml" />
     <Content Include="src\skins\simple\CloseButtonSkin.exml" />
     <Content Include="src\skins\simple\PanelSkin.exml" />
-    <Content Include="resource\assets\green.json" />
     <Content Include="resource\assets\num.fnt" />
-    <Content Include="resource\assets\red.json" />
     <Content Include="resource\assets\turretskin.json" />
     <Content Include="resource\assets\scene1\scene1sprite.json" />
     <Content Include="resource\assets\scene1\scene1turret.json" />
@@ -456,6 +450,7 @@
     <TypeScriptCompile Include="src\com\xinfangke\XFKSprite.ts" />
     <TypeScriptCompile Include="src\com\xinfangke\XFKTurret.ts" />
     <TypeScriptCompile Include="src\com\xinfangke\XKFConfig.ts" />
+    <TypeScriptCompile Include="src\com\xinfangke\XKFHpImg.ts" />
     <TypeScriptCompile Include="src\LoadingUI.ts" />
     <TypeScriptCompile Include="src\Main.ts" />
   </ItemGroup>

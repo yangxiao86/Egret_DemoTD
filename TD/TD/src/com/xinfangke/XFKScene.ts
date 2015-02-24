@@ -165,7 +165,8 @@
 
         //总部血量变化（主要处理总部0血量时候GAMEOVER）
         private gm_headquarters_hpChange(e: game.BaseEvent): void {
-
+            egret.gui.Alert.show("游戏结束，游戏被暂停！", "弹窗", function () { game.ModuleManager.Instance.IsStop = false; },"继续");
+            game.ModuleManager.Instance.IsStop = true;
         }
 
 

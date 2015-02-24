@@ -1,7 +1,7 @@
 {
 	"groups":[
 	{
-		"keys":"num_fnt,button_disabled_png,button_down_png,button_normal_png,panel_back_png,progressbar_fill_png,progressbar_track_png,togglebutton_disabled_png,togglebutton_normal_png,togglebutton_selected_png,panel_headeback_png,closebtn_down_png,closebtn_up_png,turretskin,turretskin0_json,turretskin0_png,turretskin1_json,turretskin1_png,turretskin2_json,turretskin2_png,turretskin3_json,turretskin3_png,bullet1,panelbackground",
+		"keys":"num_fnt,button_disabled_png,button_down_png,button_normal_png,panel_back_png,progressbar_fill_png,progressbar_track_png,togglebutton_disabled_png,togglebutton_normal_png,togglebutton_selected_png,panel_headeback_png,closebtn_down_png,closebtn_up_png,turretskin,turretskin0_json,turretskin0_png,turretskin1_json,turretskin1_png,turretskin2_json,turretskin2_png,turretskin3_json,turretskin3_png,bullet1,panelbackground,spritehp_png,spritehpbg_png",
 		"name":"preload"
 	},
 	{
@@ -94,34 +94,9 @@
 		"url":"assets/simple/ToggleButton/togglebutton_over.png"
 	},
 	{
-		"name":"green_json",
-		"type":"json",
-		"url":"assets/green.json"
-	},
-	{
-		"name":"green_png",
-		"type":"image",
-		"url":"assets/green.png"
-	},
-	{
-		"name":"red_json",
-		"type":"json",
-		"url":"assets/red.json"
-	},
-	{
-		"name":"red_png",
-		"type":"image",
-		"url":"assets/red.png"
-	},
-	{
 		"name":"num_fnt",
 		"type":"font",
 		"url":"assets/num.fnt"
-	},
-	{
-		"name":"tdlist",
-		"type":"image",
-		"url":"assets/tdlist.png"
 	},
 	{
 		"name":"turretskin",
@@ -262,5 +237,15 @@
 		"name":"sprite1_up_png",
 		"type":"image",
 		"url":"assets/sprite/sprite1_up.png"
+	},
+	{
+		"name":"spritehp_png",
+		"type":"image",
+		"url":"assets/spritehp.png"
+	},
+	{
+		"name":"spritehpbg_png",
+		"type":"image",
+		"url":"assets/spritehpbg.png"
 	}]
 }

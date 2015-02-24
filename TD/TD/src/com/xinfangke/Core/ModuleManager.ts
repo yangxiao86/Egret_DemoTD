@@ -14,7 +14,9 @@
             if (this.instance == null) this.instance = new ModuleManager();
             return this.instance;
         }
-		
+
+
+        public IsStop: boolean = false;
 
         private dicData = new Object();
 
@@ -38,7 +40,9 @@
 
         private update(e:egret.Event): void
         {
-
+            if (this.IsStop) {
+                return;
+            }
             for (var key in this.dicData)
             {
                 //根据需求，具体模块自己去算吧，这里传回当前时间

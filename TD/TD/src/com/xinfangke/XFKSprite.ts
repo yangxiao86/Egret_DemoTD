@@ -4,6 +4,8 @@
 
         public Glob: number;
 
+        private hpImg: game.XFKHpImg = new game.XFKHpImg();
+
         public constructor()
         {
             super();
@@ -42,6 +44,8 @@
             parent.addChild(this);
 
             game.ModuleManager.Instance.RegisterModule(this);
+
+            this.hpImg.OnLoad(this);
         }
 
         public OnRelease(): void {
@@ -58,6 +62,8 @@
                 this.parent.removeChild(this);
             }
             game.ModuleManager.Instance.UnRegisterModule(this);
+
+            this.hpImg.OnRelease();
         }
 
         private onDirectionChange(e: egret.Event): void
@@ -92,6 +98,7 @@
 
         private onHpChange(e: egret.Event): void {
 
+            this.hpImg.sethp(this.Hp, this.HpMax);
             if (this.Hp <= 0) {
                 game.XFKControls.dispatchEvent(game.BaseEvent.gm_monster_death,this);
                 this.OnRelease();
@@ -146,6 +153,7 @@
         public Parse(obj: any): void {
 
             this.Hp = parseInt(obj.hp);
+            this.HpMax = parseInt(obj.hp);
             this.Glob = parseInt(obj.glob);
             this.MoveSpeed = parseFloat(obj.speed);
             this.Type = obj.type;
