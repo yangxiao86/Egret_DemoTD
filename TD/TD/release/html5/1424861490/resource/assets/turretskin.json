@@ -1,0 +1,34 @@
+﻿{
+    "turretskin0": {
+        "offsetx": "0",
+        "offsety": "0",
+        "radius": "0",
+        "speed": "0",
+        "glob": "0",
+        "label": "撤退"
+    },
+    "turretskin1": {
+        "offsetx": "0", 
+        "offsety":"0",
+        "radius": "80",
+        "speed": "600",
+        "glob": "1",
+        "label": "绿头兵"
+    },
+    "turretskin2": {
+        "offsetx": "0", 
+        "offsety":"0",
+        "radius": "120",
+        "speed": "300",
+        "glob": "3",
+        "label": "蓝头兵"
+    },
+    "turretskin3": {
+        "offsetx": "0",
+        "offsety": "0",
+        "radius": "140",
+        "speed": "200",
+        "glob": "5",
+        "label": "塔兵"
+    }
+}

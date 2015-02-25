@@ -111,22 +111,36 @@ class Main extends egret.DisplayObjectContainer {
     private createScene(): void {
 
         var button1: egret.gui.Button = new egret.gui.Button();
-        button1.left = 0;
+        button1.right = 0;
         button1.top = 0;
-        button1.label = "场景1";
-        button1.name = "scene1"
+        button1.label = "关卡1";
+        button1.name = "scene1";
+        button1.height = 40;
         button1.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
 
         var button2: egret.gui.Button = new egret.gui.Button();
         button2.right = 0;
-        button2.top = 0;
-        button2.label = "场景2";
-        button2.name = "scene2"
+        button2.top = 45;
+        button2.label = "关卡2";
+        button2.name = "scene2";
+        button2.height = 40;
         button2.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
+
+        var button3: egret.gui.Button = new egret.gui.Button();
+        button3.horizontalCenter = 0;
+        button3.top = 0;
+        button3.label = "开始";
+        button3.name = "isStop";
+        button3.height = 40;
+        button3.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonStop, this);
         //在GUI范围内一律使用addElement等方法替代addChild等方法。
 
         game.XFKLayer.Ins.GuiLayer.addElement(button1);
         game.XFKLayer.Ins.GuiLayer.addElement(button2);
+        game.XFKLayer.Ins.GuiLayer.addElement(button3);
+
+        game.ModuleManager.Instance.IsStop = this._isStop;
+        button1.dispatchEvent(new egret.TouchEvent(egret.TouchEvent.TOUCH_TAP));
 
     }
 
@@ -136,6 +150,22 @@ class Main extends egret.DisplayObjectContainer {
         if (this.scene) { this.scene.OnRelease(); }
         this.scene = new game.XFKScene();
         this.scene.OnLoad(event.target.name);
+    }
+
+     /**
+     *  是否暂停游戏
+     */
+    private _isStop: boolean = true;
+
+    private onButtonStop(event: egret.TouchEvent): void {
+        if (this._isStop) {
+            event.target.label = "暂停";
+        }
+        else{
+            event.target.label = "开始";
+        }
+        this._isStop = !this._isStop;
+        game.ModuleManager.Instance.IsStop = this._isStop;
     }
 }
 

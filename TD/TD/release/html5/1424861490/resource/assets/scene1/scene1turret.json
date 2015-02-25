@@ -1,0 +1,191 @@
+{
+	"turret":[
+        {
+            "name": "turret_1",
+            "x": "160",
+            "y": "220",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_2",
+            "x": "195",
+            "y": "220",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_3",
+            "x": "230",
+            "y": "220",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "260",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "290",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "320",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "350",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "380",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "410",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "470",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "500",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "600",
+            "y": "220",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "640",
+            "y": "270",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "640",
+            "y": "330",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "640",
+            "y": "380",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "640",
+            "y": "430",
+            "type": "turretskin0"
+        }
+        ,
+        {
+            "name": "turret_4",
+            "x": "160",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "190",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "220",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "250",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "280",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "310",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "340",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "370",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "400",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "430",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "460",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "490",
+            "y": "350",
+            "type": "turretskin0"
+        },
+        {
+            "name": "turret_4",
+            "x": "490",
+            "y": "410",
+            "type": "turretskin0"
+        }
+	]
+}
